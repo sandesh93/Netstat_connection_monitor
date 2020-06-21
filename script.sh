@@ -10,3 +10,4 @@ find $BASE_PATH -name "*.log" -type f -mtime +3 -exec rm -f {} \;    ### for fil
 
 #Capture netstat connections
 netstat -nautp | grep "LISTEN" > $BASE_PATH/file-$TIME.log
+#####END OF SCRIPT #####
